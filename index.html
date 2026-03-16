@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hardik Web Solutions</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f7fb;
+color:#333;
+}
+
+header{
+background:#0f172a;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+font-size:18px;
+opacity:0.9;
+}
+
+nav{
+background:#1e293b;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(to right,#2563eb,#06b6d4);
+color:white;
+}
+
+.hero h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.hero button{
+padding:12px 25px;
+border:none;
+border-radius:6px;
+background:white;
+color:#2563eb;
+font-weight:bold;
+cursor:pointer;
+}
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+width:260px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3{
+margin-top:0;
+}
+
+.portfolio-box{
+background:white;
+padding:30px;
+margin:20px auto;
+width:60%;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+form input, form textarea{
+width:300px;
+padding:10px;
+margin:8px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+button{
+background:#2563eb;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+background:#0f172a;
+color:white;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Hardik Web Solutions</h1>
+<p>Professional Websites For Businesses & Creators</p>
+</header>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#order">Order</a>
+</nav>
+
+<section class="hero">
+<h2>I Build Websites That Help Businesses Grow</h2>
+<p>Affordable websites for shops, creators and startups.</p>
+<button onclick="location.href='#order'">Order a Website</button>
+</section>
+
+<section id="services">
+<h2>My Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Business Website</h3>
+<p>Perfect for shops, restaurants and local businesses.</p>
+<p><b>Starting ?2000</b></p>
+</div>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Show your work online with a professional portfolio.</p>
+<p><b>Starting ?1500</b></p>
+</div>
+
+<div class="card">
+<h3>Custom Website</h3>
+<p>A website designed exactly according to your needs.</p>
+<p><b>Custom Price</b></p>
+</div>
+
+</div>
+</section>
+
+<section id="portfolio">
+<h2>Portfolio</h2>
+
+<div class="portfolio-box">
+<p>Your website projects will appear here.</p>
+<p>Add screenshots of websites you create.</p>
+</div>
+
+</section>
+
+<section id="order">
+<h2>Order Your Website</h2>
+
+<form action="https://formsubmit.co/hardiksyadav06@gmail.com" method="POST">
+
+<input type="text" name="name" placeholder="Your Name" required><br>
+
+<input type="email" name="email" placeholder="Your Email" required><br>
+
+<input type="text" name="business" placeholder="Business / Website Type"><br>
+
+<textarea name="requirements" placeholder="Tell me about the website you need" rows="5"></textarea><br>
+
+<button type="submit">Submit Order</button>
+
+</form>
+
+<p>Or contact directly:</p>
+<p>Email: hardiksyadav06@gmail.com</p>
+<p>Phone / WhatsApp: +91 9634801415</p>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/919634801415">Chat on WhatsApp</a>
+
+<footer>
+<p>© 2026 Hardik Web Solutions</p>
+</footer>
+
+</body>
+</html>
